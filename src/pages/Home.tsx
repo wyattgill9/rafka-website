@@ -6,7 +6,7 @@ export default function HomePage() {
         <h1 class="text-7xl text-red-700 font-bold mb-6">
           <span class="inline-block transform hover:scale-105 transition-transform duration-200">Rafka</span>
         </h1>
-        <p class="text-2xl mb-8 text-red-900/80 max-w-3xl mx-auto">
+        <p class="text-2xl mb-8 text-red-700/80 max-w-3xl mx-auto">
           A blazingly fast, distributed message queue broker 
           <span class="block mt-2 text-red-600">Built with ❤️ using Rust</span>
         </p>
@@ -96,7 +96,7 @@ async fn main() -> Result<()> {
       {/* CTA Section */}
       <div class="text-center my-20">
         <h2 class="text-3xl font-bold text-red-700 mb-6">Ready to Get Started?</h2>
-        <p class="text-xl text-red-900/70 mb-8 max-w-2xl mx-auto">
+        <p class="text-xl text-red-700/70 mb-8 max-w-2xl mx-auto">
           Join the growing community of developers using Rafka in production.
         </p>
         <div class="flex gap-4 justify-center">
